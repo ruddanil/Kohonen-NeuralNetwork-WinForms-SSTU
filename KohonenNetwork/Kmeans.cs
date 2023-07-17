@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace KohonenNetwork
 {
-    class Kmeans
+    internal class Kmeans
     {
-        public List<Vector> clusters = new List<Vector>();
-
-        public Kmeans()
-        {
-        }
+        public List<Vector> Clusters = new List<Vector>();
     }
 }

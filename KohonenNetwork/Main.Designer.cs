@@ -53,14 +53,14 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Итерация:";
+            this.label1.Text = "Iteration:";
             // 
             // iterCount
             // 
             this.iterCount.AutoSize = true;
-            this.iterCount.Location = new System.Drawing.Point(69, 12);
+            this.iterCount.Location = new System.Drawing.Point(60, 12);
             this.iterCount.Name = "iterCount";
             this.iterCount.Size = new System.Drawing.Size(37, 13);
             this.iterCount.TabIndex = 20;
@@ -71,23 +71,23 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 30;
-            this.label2.Text = "Радиус:";
+            this.label2.Text = "Radius:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 40;
-            this.label3.Text = "Скорость:";
+            this.label3.Text = "Speed:";
             // 
             // neighbourLabel
             // 
             this.neighbourLabel.AutoSize = true;
-            this.neighbourLabel.Location = new System.Drawing.Point(56, 55);
+            this.neighbourLabel.Location = new System.Drawing.Point(55, 55);
             this.neighbourLabel.Name = "neighbourLabel";
             this.neighbourLabel.Size = new System.Drawing.Size(19, 13);
             this.neighbourLabel.TabIndex = 50;
@@ -96,7 +96,7 @@
             // learningLabel
             // 
             this.learningLabel.AutoSize = true;
-            this.learningLabel.Location = new System.Drawing.Point(68, 33);
+            this.learningLabel.Location = new System.Drawing.Point(53, 33);
             this.learningLabel.Name = "learningLabel";
             this.learningLabel.Size = new System.Drawing.Size(40, 13);
             this.learningLabel.TabIndex = 60;
@@ -108,36 +108,36 @@
             this.b_start.Name = "b_start";
             this.b_start.Size = new System.Drawing.Size(139, 23);
             this.b_start.TabIndex = 70;
-            this.b_start.Text = "Начать";
+            this.b_start.Text = "Start";
             this.b_start.UseVisualStyleBackColor = true;
-            this.b_start.Click += new System.EventHandler(this.b_start_Click);
+            this.b_start.Click += new System.EventHandler(this.B_start_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 513);
+            this.label4.Location = new System.Drawing.Point(12, 513);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 13);
+            this.label4.Size = new System.Drawing.Size(108, 13);
             this.label4.TabIndex = 80;
-            this.label4.Text = "Радиус окрестности";
+            this.label4.Text = "Radius neighborhood";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(144, 513);
+            this.label5.Location = new System.Drawing.Point(162, 513);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 13);
+            this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 90;
-            this.label5.Text = "Скорость обучения";
+            this.label5.Text = "Learning rate";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(282, 513);
+            this.label6.Location = new System.Drawing.Point(277, 513);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 13);
+            this.label6.Size = new System.Drawing.Size(101, 13);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Число итераций";
+            this.label6.Text = "Number of iterations";
             // 
             // text_neigh
             // 
@@ -167,9 +167,9 @@
             this.b_cancel.Name = "b_cancel";
             this.b_cancel.Size = new System.Drawing.Size(139, 23);
             this.b_cancel.TabIndex = 91;
-            this.b_cancel.Text = "Остановить";
+            this.b_cancel.Text = "Stop";
             this.b_cancel.UseVisualStyleBackColor = true;
-            this.b_cancel.Click += new System.EventHandler(this.b_cancel_Click);
+            this.b_cancel.Click += new System.EventHandler(this.B_cancel_Click);
             // 
             // b_Kmeans
             // 
@@ -178,9 +178,9 @@
             this.b_Kmeans.Name = "b_Kmeans";
             this.b_Kmeans.Size = new System.Drawing.Size(139, 23);
             this.b_Kmeans.TabIndex = 92;
-            this.b_Kmeans.Text = "Сгруппировать";
+            this.b_Kmeans.Text = "Group";
             this.b_Kmeans.UseVisualStyleBackColor = true;
-            this.b_Kmeans.Click += new System.EventHandler(this.b_Kmeans_Click);
+            this.b_Kmeans.Click += new System.EventHandler(this.B_Kmeans_Click);
             // 
             // text_groups
             // 
@@ -192,11 +192,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(405, 513);
+            this.label7.Location = new System.Drawing.Point(408, 513);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(97, 13);
+            this.label7.Size = new System.Drawing.Size(91, 13);
             this.label7.TabIndex = 95;
-            this.label7.Text = "Количество групп";
+            this.label7.Text = "Number of groups";
             // 
             // Main
             // 
@@ -227,7 +227,7 @@
             this.MaximumSize = new System.Drawing.Size(535, 630);
             this.MinimumSize = new System.Drawing.Size(535, 630);
             this.Name = "Main";
-            this.Text = "Нейроэмулятор сети Кохонена";
+            this.Text = "Kohonen Network Neuroemulator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
